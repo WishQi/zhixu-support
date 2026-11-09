@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="稚序技术支持：联系我们，反馈使用问题与功能建议，查看记录、图表和 iCloud 同步的常见问题。">
+    <meta name="theme-color" content="#f7f6f0">
+    <meta name="color-scheme" content="light">
+    <title>稚序 · 技术支持</title>
+    <style>
+      :root {
+        --background: #f7f6f0;
+        --surface: #ffffff;
+        --text: #28362f;
+        --secondary: #566159;
+        --accent: #426b54;
+        --soft: #eaf0e5;
+        --border: #dfe5d9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 16px;
+        line-height: 1.75;
+        -webkit-text-size-adjust: 100%;
+      }
+      a { color: var(--accent); text-underline-offset: 4px; }
+      a:hover { text-decoration-thickness: 2px; }
+      a:focus-visible, summary:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 5px;
+        border-radius: 5px;
+      }
+      .skip-link {
+        position: absolute;
+        left: 16px;
+        top: -100px;
+        background: var(--surface);
+        padding: 8px 16px;
+        z-index: 1;
+      }
+      .skip-link:focus { top: 12px; }
+      .shell { width: min(100% - 40px, 800px); margin: 0 auto; }
+      header { padding-top: 42px; }
+      .brand { display: flex; align-items: center; gap: 12px; }
+      .brand-mark {
+        display: grid;
+        place-items: center;
+        width: 46px;
+        height: 46px;
+        border-radius: 15px;
+        background: var(--soft);
+        color: var(--accent);
+        font-family: "Songti SC", "Noto Serif CJK SC", serif;
+        font-size: 26px;
+        font-weight: 600;
+      }
+      .brand-name { display: block; font-size: 18px; font-weight: 650; }
+      .brand-caption { display: block; font-size: 12px; color: var(--secondary); }
+      .intro { padding: 50px 0 26px; }
+      .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: 13px; font-weight: 600; letter-spacing: 0.08em; }
+      h1 { margin: 0 0 14px; font-size: clamp(30px, 6vw, 42px); line-height: 1.3; letter-spacing: -0.03em; }
+      .intro p:last-child { max-width: 38em; margin: 0; color: var(--secondary); }
+      .card { margin-bottom: 20px; padding: 28px; border: 1px solid var(--border); border-radius: 22px; background: var(--surface); }
+      .contact { background: var(--soft); }
+      h2 { margin: 0 0 10px; font-size: 20px; line-height: 1.5; }
+      .card > p { margin: 0 0 18px; color: var(--secondary); }
+      .contact-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+      .email { overflow-wrap: anywhere; font-size: 15px; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 46px;
+        padding: 10px 20px;
+        border-radius: 13px;
+        background: var(--accent);
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .button:hover { background: #355842; }
+      .button svg { width: 18px; height: 18px; }
+      ul { padding-left: 22px; margin: 10px 0 14px; color: var(--secondary); }
+      li { padding: 3px 0; }
+      .card .note { margin: 14px 0 0; font-size: 13px; color: var(--secondary); }
+      details { border-top: 1px solid var(--border); }
+      details:first-of-type { margin-top: 18px; }
+      summary { padding: 17px 2px; cursor: pointer; font-size: 15px; font-weight: 600; }
+      details p { margin: 0 2px 18px; color: var(--secondary); font-size: 14px; }
+      footer { padding: 8px 0 36px; color: var(--secondary); font-size: 12px; }
+      footer p { margin: 0; }
+      @media (max-width: 480px) {
+        header { padding-top: 24px; }
+        .intro { padding-top: 36px; }
+        .card { padding: 22px; border-radius: 18px; }
+        .contact-actions { align-items: flex-start; flex-direction: column; }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要内容</a>
+    <header class="shell">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">稚</span>
+        <div>
+          <span class="brand-name">稚序</span>
+          <span class="brand-caption">宝宝日常照护记录</span>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="shell">
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">SUPPORT · 技术支持</p>
+        <h1 id="title">有问题，随时联系我们。</h1>
+        <p>关于稚序的使用问题、功能建议或数据相关咨询，欢迎通过邮件与我们联系。</p>
+      </section>
+
+      <section class="card contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">联系支持</h2>
+        <p>告诉我们遇到的情况，帮助我们更好地了解和处理问题。</p>
+        <div class="contact-actions">
+          <a class="button" href="mailto:lmq729981607@gmail.com?subject=%E7%A8%9A%E5%BA%8F%E4%BD%BF%E7%94%A8%E5%8F%8D%E9%A6%88">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+            发送邮件
+          </a>
+          <a class="email" href="mailto:lmq729981607@gmail.com">lmq729981607@gmail.com</a>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="feedback-title">
+        <h2 id="feedback-title">反馈时，可以附上这些信息</h2>
+        <ul>
+          <li>稚序版本，可在“我的”页面底部查看。</li>
+          <li>设备型号和 iOS 版本。</li>
+          <li>问题的具体表现，以及出现问题前的操作步骤。</li>
+        </ul>
+        <p class="note">如需附上截图，请优先使用不含个人信息的画面。</p>
+      </section>
+
+      <section class="card" aria-labelledby="faq-title">
+        <h2 id="faq-title">常见问题</h2>
+        <details>
+          <summary>使用稚序需要注册账号吗？</summary>
+          <p>日常记录无需注册应用账号。完成首次使用设置、建立宝宝档案后，即可在本机记录喂养、睡眠、尿布、成长等信息，核心记录功能可离线使用。</p>
+        </details>
+        <details>
+          <summary>如何开启 iCloud 同步？</summary>
+          <p>在系统设置中登录可用的 Apple 账号并启用 iCloud，然后打开稚序的“我的”页面，开启“iCloud 数据同步”并确认同步说明。该功能默认关闭，用于同一 Apple 账号下的资料与记录同步。首次安装时，也可以在“使用前确认”页面选择“从 iCloud 恢复已有资料”。</p>
+        </details>
+        <details>
+          <summary>为什么分析图表暂时没有数据？</summary>
+          <p>图表根据已完成、已保存的记录生成。请先添加记录，或检查当前选择的日期与统计周期。进行中的亲喂、吸奶和睡眠计时，需要完成并保存后才会进入相应统计。</p>
+        </details>
+        <details>
+          <summary>生长参考曲线有什么用途？</summary>
+          <p>生长曲线用于回看个人测量变化，并在适用范围内展示生长标准参考。标准来源入口位于 App 的生长图表下方。稚序提供日常记录与趋势参考，不提供医疗诊断、治疗或用药建议。</p>
+        </details>
+      </section>
+    </main>
+    <footer class="shell">
+      <p>稚序 · 记录宝宝的日常，让照护更有条理。</p>
+      <p>本页更新于 2026 年 11 月 9 日</p>
+    </footer>
+  </body>
+</html>
