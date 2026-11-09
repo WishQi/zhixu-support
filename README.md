@@ -4,7 +4,12 @@
 
 联系邮箱：lmq729981607@gmail.com
 
-本仓库仅包含静态支持页面。
+本仓库仅包含静态支持和隐私政策页面。
+
+- 技术支持：https://wishqi.github.io/zhixu-support/
+- 隐私政策：https://wishqi.github.io/zhixu-support/privacy.html
+
+政策与 App 的实际数据处理方式应保持一致。更新公开政策时，不在本仓库放置用户资料或应用源码。
 
 ## 本地预览
 

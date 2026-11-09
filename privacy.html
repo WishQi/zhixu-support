@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="稚序隐私政策：了解本机保存、可选 iCloud 同步、儿童及成人信息处理、数据管理与隐私联系方式。">
+    <meta name="theme-color" content="#f7f6f0">
+    <meta name="color-scheme" content="light">
+    <title>稚序 · 隐私政策</title>
+    <style>
+      :root {
+        --background: #f7f6f0;
+        --surface: #ffffff;
+        --text: #28362f;
+        --secondary: #566159;
+        --accent: #426b54;
+        --soft: #eaf0e5;
+        --border: #dfe5d9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 16px;
+        line-height: 1.75;
+        -webkit-text-size-adjust: 100%;
+      }
+      a { color: var(--accent); text-underline-offset: 4px; }
+      a:hover { text-decoration-thickness: 2px; }
+      a:focus-visible, summary:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 5px;
+        border-radius: 5px;
+      }
+      .skip-link {
+        position: absolute;
+        left: 16px;
+        top: -100px;
+        background: var(--surface);
+        padding: 8px 16px;
+        z-index: 1;
+      }
+      .skip-link:focus { top: 12px; }
+      .shell { width: min(100% - 40px, 800px); margin: 0 auto; }
+      header { padding-top: 42px; }
+      .brand { display: flex; align-items: center; gap: 12px; }
+      .brand-mark {
+        display: grid;
+        place-items: center;
+        width: 46px;
+        height: 46px;
+        border-radius: 15px;
+        background: var(--soft);
+        color: var(--accent);
+        font-family: "Songti SC", "Noto Serif CJK SC", serif;
+        font-size: 26px;
+        font-weight: 600;
+      }
+      .brand-name { display: block; font-size: 18px; font-weight: 650; }
+      .brand-caption { display: block; font-size: 12px; color: var(--secondary); }
+      .intro { padding: 50px 0 26px; }
+      .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: 13px; font-weight: 600; letter-spacing: 0.08em; }
+      h1 { margin: 0 0 14px; font-size: clamp(30px, 6vw, 42px); line-height: 1.3; letter-spacing: -0.03em; }
+      .intro p:last-child { max-width: 38em; margin: 0; color: var(--secondary); }
+      .card { margin-bottom: 20px; padding: 28px; border: 1px solid var(--border); border-radius: 22px; background: var(--surface); }
+      .contact { background: var(--soft); }
+      h2 { margin: 0 0 10px; font-size: 20px; line-height: 1.5; }
+      .card > p { margin: 0 0 18px; color: var(--secondary); }
+      .contact-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+      .email { overflow-wrap: anywhere; font-size: 15px; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 46px;
+        padding: 10px 20px;
+        border-radius: 13px;
+        background: var(--accent);
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .button:hover { background: #355842; }
+      .button svg { width: 18px; height: 18px; }
+      ul { padding-left: 22px; margin: 10px 0 14px; color: var(--secondary); }
+      li { padding: 3px 0; }
+      .card .note { margin: 14px 0 0; font-size: 13px; color: var(--secondary); }
+      details { border-top: 1px solid var(--border); }
+      details:first-of-type { margin-top: 18px; }
+      summary { padding: 17px 2px; cursor: pointer; font-size: 15px; font-weight: 600; }
+      details p { margin: 0 2px 18px; color: var(--secondary); font-size: 14px; }
+      footer { padding: 8px 0 36px; color: var(--secondary); font-size: 12px; }
+      footer p { margin: 0; }
+      @media (max-width: 480px) {
+        header { padding-top: 24px; }
+        .intro { padding-top: 36px; }
+        .card { padding: 22px; border-radius: 18px; }
+        .contact-actions { align-items: flex-start; flex-direction: column; }
+      }
+
+      .policy-meta { margin: 12px 0 0; font-size: 13px; color: var(--secondary); }
+      .policy-intro { margin-top: 20px; }
+      article section { scroll-margin-top: 20px; }
+      article h2 { margin-top: 30px; }
+      article section:first-child h2 { margin-top: 0; }
+      article h3 { margin: 20px 0 8px; font-size: 16px; }
+      article p { margin: 10px 0; color: var(--secondary); }
+      article li { overflow-wrap: anywhere; }
+      article strong { color: var(--text); }
+      .policy-nav { display: flex; flex-wrap: wrap; gap: 10px 20px; font-size: 14px; }
+      .contact-address { overflow-wrap: anywhere; }
+      footer a { display: inline-block; padding: 8px 0; }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要内容</a>
+    <header class="shell"><div class="brand"><span class="brand-mark" aria-hidden="true">稚</span><div><span class="brand-name">稚序</span><span class="brand-caption">宝宝日常照护记录</span></div></div></header>
+    <main id="main" class="shell">
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">PRIVACY · 隐私政策</p>
+        <h1 id="title">稚序隐私政策</h1>
+        <p>了解你主动记录的信息如何保存、同步，以及如何管理。</p>
+        <div class="policy-meta">更新日期：2026 年 11 月 9 日 · 生效日期：2026 年 11 月 9 日</div>
+      </section>
+      <nav class="card policy-nav" aria-label="隐私政策目录"><a href="#scope">适用范围与联系方式</a><a href="#data">处理哪些信息，以及用途</a><a href="#storage">本机保存与可选 iCloud 同步</a><a href="#photos">头像及设备能力</a><a href="#support">联系支持与访问本网站</a><a href="#controls">保存期限、修改、删除与停止处理</a><a href="#children">儿童与成人敏感信息</a><a href="#changes">政策更新</a></nav>
+      <article class="card" aria-label="隐私政策正文"><section id="scope" aria-labelledby="heading-scope"><h2 id="heading-scope">一、适用范围与联系方式</h2>
+<p>本政策适用于由 App Store 产品页面所列开发者提供的“稚序”App，以及稚序的技术支持和隐私政策网站。本政策中的“我们”指该应用的开发者。</p>
+<p>如对本政策或个人信息处理有疑问，或希望提出隐私相关请求，请联系：<a class="contact-address" href="mailto:lmq729981607@gmail.com">lmq729981607@gmail.com</a>。</p>
+<p>稚序面向家长及其他法定监护人，用于记录宝宝的日常照护，以及使用者本人主动记录的哺乳、吸奶等信息。核心记录功能无需注册应用账号，可离线使用。</p>
+</section><section id="data" aria-labelledby="heading-data"><h2 id="heading-data">二、处理哪些信息，以及用途</h2>
+<p>稚序根据你使用的功能处理由你主动提供的信息，用于建立档案、保存和展示记录、计算统计与趋势，以及在你选择开启后进行 iCloud 同步与恢复。</p>
+<ul>
+<li><strong>宝宝资料：</strong>昵称、出生日期、家庭时区，以及可选的生长参考分组和头像。昵称可以使用化名，头像和生长参考分组可以不提供。</li>
+<li><strong>日常照护记录：</strong>你填写的奶瓶喂养、尿布、睡眠、生长测量、补剂、疫苗接种，以及相关日期、时间、用量、剂次和备注。</li>
+<li><strong>成人哺乳与吸奶记录：</strong>在单独确认后，由使用者主动记录的左右侧、计时分段、时长、吸奶量等本人信息。</li>
+<li><strong>日记与用品资料：</strong>你填写的日记标题和正文、奶粉和奶瓶资料，以及关联记录所需的历史版本。</li>
+<li><strong>必要的运行信息：</strong>本机设置、处理同意状态、随机生成的本机标识、安全材料和同步状态，用于保存、访问保护、数据一致性和故障恢复。</li>
+</ul>
+<p>这些内容可能包含儿童个人信息，以及与健康、身体状况或哺乳活动有关的敏感信息。请仅记录实现你所需功能的必要内容。</p>
+<p>App 内的“分析”根据已保存的照护记录在本机计算，不是广告或第三方用户行为分析服务。当前版本未接入广告、跨 App 跟踪或第三方用户行为统计 SDK。</p>
+</section><section id="storage" aria-labelledby="heading-storage"><h2 id="heading-storage">三、本机保存与可选 iCloud 同步</h2>
+<h3>本机保存</h3>
+<p>在未开启 iCloud 同步时，宝宝资料、照护记录、成人哺乳与吸奶记录、日记及用品资料保存在 App 的本机私有空间，不会由 App 主动上传到开发者的业务服务器。App 使用系统提供的文件保护及安全存储机制，并请求将其管理的数据库和媒体文件排除系统备份。</p>
+<p>任何能够解锁设备并打开 App 的人都可能查看或修改该安装中的数据。当前版本不提供家庭成员身份切换或独立的 App 锁。</p>
+<h3>iCloud 同步</h3>
+<p><strong>iCloud 数据同步默认关闭。</strong>你可以在“我的”中查看说明并单独确认开启。开启后，所有已保存及之后新增的可同步资料和记录将自动同步至当前 Apple 账号的 iCloud 私有数据库，用于同一 Apple 账号下的设备同步与换机恢复。</p>
+<p>同步范围包括宝宝资料和头像、已保存的照护、生长、接种和补剂记录、日记、用品，以及成人亲喂明细和吸奶记录。进行中的计时、未保存草稿和首页快捷设置等留在当前设备。</p>
+<p>该功能使用 Apple 的 CloudKit 服务，并占用你的 iCloud 空间。<strong>关闭同步会停止后续同步，但不会自动删除本机或 iCloud 已有的数据；删除 App 也不会自动删除 iCloud 数据。</strong>同步不向其他 Apple 账号公开记录，当前版本没有家庭协作或公开动态功能。</p>
+<p>Apple 对账号及 iCloud 服务信息的处理受其适用条款和<a href="https://www.apple.com/legal/privacy/zh-cn/">隐私政策</a>约束。我们不获取你的 Apple 账号密码，也没有用于直接查看你个人 iCloud 私有数据库内容的开发者服务。</p>
+</section><section id="photos" aria-labelledby="heading-photos"><h2 id="heading-photos">四、头像及设备能力</h2>
+<p>如你主动更换宝宝头像，App 通过系统照片选择器接收你选择的图片，并在本机处理为显示所需的头像。你可以继续使用昵称首字头像，不必选择照片；开启 iCloud 同步后，当前头像属于可同步的宝宝资料。</p>
+<p>当前版本不提供照片日记、拍照记录或用品证据图功能。App 不会通过头像选择功能主动扫描或批量上传你的照片图库。</p>
+</section><section id="support" aria-labelledby="heading-support"><h2 id="heading-support">五、联系支持与访问本网站</h2>
+<p>你主动发送支持邮件时，我们会接收你的发件邮箱地址、邮件正文，以及你自愿提供的设备信息或附件，用于回复咨询、排查问题和跟进反馈。请优先提供不含儿童或其他个人敏感信息的操作说明及截图。</p>
+<p>支持邮件通过 Google 提供的 Gmail 电子邮件服务传递和保存，适用其<a href="https://policies.google.com/privacy?hl=zh-CN">隐私政策</a>。支持邮件在处理咨询和必要后续沟通期间保留；你可以通过支持邮箱申请删除我们不再需要保存的邮件与附件，依法需要保留的信息除外。</p>
+<p>本支持及隐私政策网站由 GitHub Pages 托管。网站本身没有记录资料上传表单，也未嵌入广告或访问统计脚本。访问网站时，托管服务商可能为提供服务和维护安全而处理 IP 地址、浏览器信息及访问日志，具体参见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。你的 App 内照护记录不会因此发布到本网站或其网页仓库。</p>
+</section><section id="controls" aria-labelledby="heading-controls"><h2 id="heading-controls">六、保存期限、修改、删除与停止处理</h2>
+<ul>
+<li><strong>查看和修改：</strong>你可以在 App 内查看宝宝资料及已保存记录，并通过相应编辑入口修改支持编辑的内容。</li>
+<li><strong>删除单条记录：</strong>你可以使用记录或日记详情中的删除功能。删除操作可能提供短暂撤销窗口；开启同步时，相应删除变更会在后续同步中处理，其他设备需完成同步才能反映变更。</li>
+<li><strong>本机保存期限：</strong>资料和记录会在你保留本机 App 数据期间保存，直到你删除相应内容或通过系统移除相关 App 数据。系统“卸载 App”可能保留文稿与数据，请与“删除 App”区分。</li>
+<li><strong>云端保存：</strong>iCloud 已有副本会按照你的账号设置及 Apple 提供的服务机制保留。关闭同步或删除 App 不等于删除云端副本；云端数据需通过 Apple 提供的管理方式处理。</li>
+<li><strong>必要同步状态：</strong>为了保持多设备一致性并防止旧内容重新出现，App 可能保留必要的同步状态与不包含原记录正文的删除标记。</li>
+<li><strong>停止使用和撤回请求：</strong>你可以停止使用相应记录功能，并关闭 iCloud 停止后续同步。当前版本没有 App 内独立的一键撤回同意、批量清空或数据导出功能；关闭某个模块仅隐藏记录入口，不会撤回已记录的同意或删除历史资料。</li>
+</ul>
+<p>你可以通过支持邮箱提出查阅、更正、删除或撤回同意等隐私相关请求。对我们持有的支持邮件等信息，我们会按请求和适用要求处理；对于仅保存在你设备或个人 iCloud 中的数据，我们无法替你远程操作，会提供与你的数据保存方式相适应的操作指引。</p>
+<p>App 内删除无法自动控制你另行创建的截图、邮件附件、旧系统备份或其他外部副本。</p>
+</section><section id="children" aria-labelledby="heading-children"><h2 id="heading-children">七、儿童与成人敏感信息</h2>
+<p>建立宝宝档案前，使用者需要声明自己是宝宝的父母或其他法定监护人，并单独同意处理宝宝的必要信息。这是使用者的自行声明，不表示 App 已核验现实身份或使用者年龄。</p>
+<p>成人哺乳与吸奶信息由对应使用者本人单独确认处理。儿童监护人同意不会自动替代对其他成人本人信息的授权。请不要在未获得适当授权的情况下录入他人的信息。</p>
+<p>如果你认为儿童信息或本人敏感信息被不当使用，请通过支持邮箱联系我们，以便获得相应的处理指引。</p>
+</section><section id="changes" aria-labelledby="heading-changes"><h2 id="heading-changes">八、政策更新</h2>
+<p>我们会在数据处理方式或服务发生变化时更新本政策，并标明更新日期。涉及处理目的、数据范围或共享方式的重大变化时，将通过适当方式说明；依法需要重新取得同意的，会在相应处理开始前取得同意。</p>
+<p>如有疑问，请联系 <a class="contact-address" href="mailto:lmq729981607@gmail.com">lmq729981607@gmail.com</a>，或访问<a href="./">稚序技术支持页面</a>。</p>
+</section></article>
+    </main>
+    <footer class="shell"><p><a href="./">技术支持</a> · <a href="mailto:lmq729981607@gmail.com">联系开发者</a></p><p>稚序 · 宝宝日常照护记录</p></footer>
+  </body>
+</html>
